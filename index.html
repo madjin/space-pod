@@ -1,17 +1,16 @@
 <html>
 <body>
-<!--
 <FireBoxRoom>
 <Assets>
 <AssetObject id="pod" src="space_pod.glb" />
 <AssetObject id="pod-collision" src="collision_pod.glb" />
 <AssetImage id="envmap" src="http://demos.janusxr.org/firefox/JanusWebTesting/Hybrid_PBR_Metal_vs_Spec/WebEqui.jpg"/>
 </Assets>
-<Room party_mode="false" pos="2.8 0.2 4.6" shadows="true" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" use_local_asset="room_plane" visible="false" ydir="0 -180 0" >
-<Object id="pod" collision_id="pod-collision" pos="2.84 0 3.85" scale="0.6 0.6 0.6" envmap_id="envmap" />
+<Room pos="2.8 1.6 4.6" shadows="true" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" use_local_asset="room_plane" visible="false" ydir="0 -180 0" zdir="0 -180 0" >
+<Object id="pod" collision_id="pod-collision" pos="2.84 1.4 3.85" scale="0.7 0.7 0.7" envmap_id="envmap" />
+<Light js_id="lightcone" pos="2.87 3.22 4.14" pickable="false" collision_id="cube" collision_scale="0 0 0" light_intensity="15" />
 </Room>
 </FireBoxRoom>
--->
 <script src="https://web.janusxr.org/1.5.33/janusweb.js"></script>
 <script>elation.janusweb.init({url: document.location.href})</script>
 </body>
