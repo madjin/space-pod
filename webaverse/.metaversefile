@@ -1,0 +1,14 @@
+{
+    "name": "space-pod",
+    "start_url": "index.js",
+    "components": [
+        {
+            "key": "physics",
+            "value": true
+        },
+        {
+            "key": "animation",
+            "value": false
+        }
+    ]
+}

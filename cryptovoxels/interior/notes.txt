@@ -1,0 +1,35 @@
+0. Group
+
+position="3.75 1.2 1.05"
+scale="0.8 0.8 0.8"
+rotation="0 0 0"
+
+1. Front entrance
+
+pos="-3.69 0.75 -1.04"
+scale="6.4 6.4 6.4"
+rotation="0 -90 0"
+
+2. Bed
+
+pos="-2.54 0.5 -0.04"
+scale="5.8 5.7 6.4"
+rotation="0 -90 0"
+
+3. Desk
+
+pos="-1.68 0.5 2.31"
+scale=" 2.27 2.4 2.4"
+rotation="0 -90 0"
+
+4. Couch
+
+pos="-0.28 -0.5 -3.94"
+scale="3 2.7 3"
+rotation="0 90 0"
+
+5. Bathroom
+
+pos="3.78 0.65 3.96"
+scale="3.5 3.5 3.5"
+rotation="0 -90 0"
