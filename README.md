@@ -4,7 +4,7 @@ Decentralized frontend experiments for space pods
 
 - Demo: https://pod.homespace.eth
 - Demo2: https://madjin.github.io/space-pod/
-- Spoke: https://hubs.mozilla.com/scenes/yF9QDEP
+- Spoke: https://hubs.mozilla.com/scenes/Er3qYDF
 - Hubs: https://hubs.mozilla.com/4e3YHGn/space-pod
 - Opensea: https://opensea.io/assets/0x226bf5293692610692e2c996c9875c914d2a7f73/5
 
