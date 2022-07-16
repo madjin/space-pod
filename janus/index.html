@@ -6,14 +6,14 @@
 <body>
 <FireBoxRoom>
 <Assets>
-<AssetObject id="pod" src="space_pod.glb" />
-<AssetObject id="pod-collision" src="collision_pod.glb" />
+<AssetObject id="pod" src="../gltf/exterior/space_pod-open-2k.glb" />
+<AssetObject id="pod-collision" src="../gltf/collision_pod.glb" />
 <AssetImage id="envmap" src="WebEqui.jpg" />
 <AssetImage id="dust" src="dust.png"/>
 <AssetWebsurface height="720" id="game" src="https://www.cryptovoxels.com/play?performance=low" width="1280"/>
 </Assets>
 <Room pos="2.8 1.6 4.6" shadows="true" ambient="0.3 0.3 0.3" flying="false" gravity="-9.8" zdir="0 0 -1" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" use_local_asset="room_plane" visible="false" >
-<Object id="pod" collision_id="pod-collision" pos="2.84 1.4 3.85" scale="0.7 0.7 0.7" envmap_id="envmap" />
+<Object id="pod" collision_id="pod" pos="2.84 1.4 3.85" scale="0.7 0.7 0.7" envmap_id="envmap" />
 <Light js_id="lightcone" pos="1 3.22 1" pickable="false" collision_id="cube" collision_scale="0 0 0" light_shadow="true" light_intensity="10" light_range="8.5" />
 <Light js_id="lightcone2" pos="-7.84 3 -5.43" collision_id="cube" collision_scale="0 0 0" light_cone_angle="0" light_cone_exponent="1" light_intensity="15" col="red" light_range="6" light_shadow="true" />
 <Light js_id="nightlight" pos="-9.22 3.64 1.98" collision_id="cube" col="red" light_range="6" light_cone_angle="0" light_cone_exponent="1" collision_scale="0 0 0" />
